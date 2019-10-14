@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:orientation="vertical">
+
+        <com.codestructure.customui.OkTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/log_in"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_30ssp"
+            android:fontFamily="@font/sf_pro_display_bold"
+            android:layout_gravity="center" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_75sdp"
+            android:layout_marginEnd="@dimen/_30sdp"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@android:color/black"
+            app:counterTextAppearance="@android:color/black"
+            app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout">
+
+            <com.codestructure.customui.OkEditText
+                android:id="@+id/et_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/black"
+                android:fontFamily="@font/sf_pro_display_regular"
+                android:hint="@string/email"
+                android:imeOptions="actionNext"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/medium_textsize" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_30sdp"
+            android:focusableInTouchMode="true"
+            android:textColorHint="@android:color/black"
+            app:counterTextAppearance="@android:color/black"
+            app:hintTextAppearance="@style/TextAppearence.App.TextInputLayout">
+
+            <com.codestructure.customui.OkEditText
+                android:id="@+id/et_password"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/black"
+                android:drawableEnd="@drawable/ic_show_password"
+                android:fontFamily="@font/sf_pro_display_regular"
+                android:hint="@string/password"
+                android:imeOptions="actionDone"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:singleLine="true"
+                android:textColor="@color/black"
+                android:textColorHint="@color/black"
+                android:textSize="@dimen/medium_textsize" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <com.codestructure.customui.OkTextView
+            android:id="@+id/tv_login"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginStart="@dimen/_30sdp"
+            android:layout_marginEnd="@dimen/_30sdp"
+            android:layout_marginTop="@dimen/_28sdp"
+            android:background="@drawable/backround_round_withcornor_btn"
+            android:text="@string/Login"
+            android:textAllCaps="true"
+            android:gravity="center"
+            android:fontFamily="@font/sf_pro_display_bold"
+            android:textColor="@color/white"
+            android:textSize="@dimen/medium_textsize" />
+
+        <com.codestructure.customui.OkTextView
+            android:id="@+id/tv_sign_up"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:text="@string/sign_up"
+            android:textColor="@color/black"
+            android:padding="@dimen/_5sdp"
+            android:textSize="@dimen/normal_textsize"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

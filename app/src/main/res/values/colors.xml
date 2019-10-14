@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffa500</color>
+    <color name="colorPrimaryDark">#ffa500</color>
+    <color name="colorAccent">#ffa500</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="light_orange">#ffc14d</color>
+    <color name="dark_orange">#e69500</color>
+
+    <color name="chat_date_time_color">#777777</color>
+    <color name="row_bg_color">#ebebeb</color>
+    <color name="average_pass_color">#F7A61E</color>
+    <color name="week_pass_color">#ff0000</color>
+    <color name="strong_pass_color">#28beaf</color>
+    <color name="user_account_first_name_value">#999999</color>
+
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.codestructure.customui.OkTextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/txtMessage"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/blue_background"
+    android:fontFamily="@font/sf_pro_display_bold"
+    android:gravity="center"
+    android:padding="@dimen/_10sdp"
+    android:textColor="@android:color/white"
+    android:textSize="@dimen/_14ssp" />

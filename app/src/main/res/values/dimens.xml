@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Common-->
+    <dimen name="rowupbtotom_margin">@dimen/_10sdp</dimen>
+    <dimen name="viewlinehheight">@dimen/_1sdp</dimen>
+
+    <dimen name="et_height">@dimen/_40sdp</dimen>
+    <dimen name="btn_height_common">@dimen/_40sdp</dimen>
+
+    <dimen name="et_inputtextsize">@dimen/_12ssp</dimen>
+    <dimen name="btn_label_inputtextsize">@dimen/_14ssp</dimen>
+    <dimen name="label_textsize">@dimen/_14ssp</dimen>
+
+    <dimen name="very_small_textsize">@dimen/_8ssp</dimen>
+    <dimen name="small_textsize">@dimen/_10ssp</dimen>
+    <dimen name="normal_textsize">@dimen/_12ssp</dimen>
+    <dimen name="medium_textsize">@dimen/_14ssp</dimen>
+
+    <dimen name="dots_radius">@dimen/_3sdp</dimen>
+    <dimen name="back_rounded_radius">@dimen/_5sdp</dimen>
+
+    <dimen name="eyeicon_padding">@dimen/_6sdp</dimen>
+
+    <dimen name="progress_height_width">@dimen/_50sdp</dimen>
+
+    <dimen name="tournament_rounded_cornerratio">@dimen/_10sdp</dimen>
+
+    <!--Header-->
+    <dimen name="headerheight">@dimen/_40sdp</dimen>
+    <dimen name="header_title_textsize">@dimen/_18ssp</dimen>
+    <dimen name="nha_title_textsize">@dimen/_35ssp</dimen>
+    <dimen name="headericon_heightwidth">@dimen/_22sdp</dimen>
+    <!--    <dimen name="header_margintop_statusbar">@dimen/_10sdp</dimen>-->
+    <dimen name="header_margintop_statusbar">0dp</dimen>
+    <dimen name="nha_icon_width">@dimen/_80sdp</dimen>
+    <dimen name="nha_icon_height">@dimen/_50ssp</dimen>
+
+    <!--Guide-->
+    <dimen name="guide_image_height">@dimen/_250sdp</dimen>
+    <dimen name="guide_image_width">@dimen/_250sdp</dimen>
+
+    <!--welcome-->
+    <dimen name="welcome_desc_textsize">@dimen/_18ssp</dimen>
+    <dimen name="welcome_leaguename_textsize">@dimen/_16ssp</dimen>
+
+    <!--rule details-->
+    <dimen name="ruledtails_imageheights">@dimen/_55sdp</dimen>
+
+
+    <!--Account-->
+    <dimen name="account_stastic_count_textsize">@dimen/_12ssp</dimen>
+    <dimen name="account_stastic_count_title_textsize">@dimen/_10ssp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!--anaylsis-->
+    <dimen name="chart_heightwidth">@dimen/_165sdp</dimen>
+
+
+</resources>

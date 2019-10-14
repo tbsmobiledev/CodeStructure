@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_280sdp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:paddingBottom="@dimen/_5sdp"
+    android:background="@drawable/bg_term_rounded_white"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:fontFamily="@font/sf_pro_display_medium"
+        android:text="@string/dialog_logout"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_16ssp" />
+
+    <LinearLayout
+        android:id="@+id/linearButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:weightSum="2">
+
+        <com.codestructure.customui.OkTextView
+            android:id="@+id/tv_yes"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginStart="@dimen/_10sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:layout_weight="1"
+            android:background="@drawable/backround_rectangle_terms_btn_blue"
+            android:fontFamily="@font/sf_pro_display_regular"
+            android:gravity="center"
+            android:text="@string/label_yes"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/normal_textsize"
+            android:textStyle="bold" />
+
+        <com.codestructure.customui.OkTextView
+            android:id="@+id/tv_no"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_40sdp"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:layout_marginEnd="@dimen/_10sdp"
+            android:layout_weight="1"
+            android:background="@drawable/backround_rectangle_terms_btn_gray"
+            android:fontFamily="@font/sf_pro_display_regular"
+            android:gravity="center"
+            android:text="@string/label_no"
+            android:textAllCaps="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/normal_textsize"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>

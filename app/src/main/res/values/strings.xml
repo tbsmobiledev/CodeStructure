@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">CodeStructure</string>
+
+    <!--Animation-->
+    <string name="duration">300</string>
+
+    <!--Login-->
+    <string name="log_in">Log In</string>
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="Login">login</string>
+    <string name="sign_up">Don\'t have an account? &#160;<font fgcolor='#ffa500'>Sign Up</font></string>
+
+    <!--Back-->
+    <string name="press_back_again">Press back again to exit app</string>
+
+    <!--Registration-->
+    <string name="label_create_an_account">Sign Up</string>
+    <string name="label_firstName">NAME</string>
+    <string name="label_lastName">SURNAME</string>
+    <string name="label_email">E-MAIL</string>
+    <string name="label_birth_date">DATE OF BIRTH</string>
+    <string name="label_password">PASSWORD</string>
+    <string name="label_confirmPassword">CONFIRM PASSWORD</string>
+    <string name="label_country">COUNTRY</string>
+    <string name="label_phoneNumber">PHONE NUMBER</string>
+    <string name="label_iagree_to_the_terms_condition">I agree to the <font color='#28BEAF'>Terms and Conditions</font></string>
+    <string name="label_receive_our_news_letter">Receive our Newsletter</string>
+    <string name="label_result_on_my_facebook_wall">Results on my Facebook wall</string>
+    <string name="week_pass">WEAK</string>
+    <string name="average_pass">AVERAGE</string>
+    <string name="strong_pass">STRONG</string>
+    <string name="or">OR</string>
+    <string name="btn_create_user">Register</string>
+    <string name="tv_select_country">Select Country</string>
+    <string name="hint_search">Search</string>
+    <string name="required_age_to_use_app_is_18_years">Required age to use app is 18 years</string>
+    <string name="age_validation">Age should be above 18</string>
+
+    <!--Terms and condition dialog-->
+    <string name="terms_conditions">Term &amp; Conditions</string>
+    <string name="terms_accept">ACCEPT</string>
+    <string name="terms_dont_accept">DON\'T ACCEPT</string>
+
+    <string name="error_firstname">Please Enter valid User Name</string>
+    <string name="error_lastname">Please Enter valid Surname</string>
+    <string name="error_enter_email">Please enter valid E-mail and Password</string>
+    <string name="error_enter_email_forgot">Please Enter valid Email Address</string>
+    <string name="error_terms_condition">Please agree Terms and Conditions</string>
+    <string name="error_enter_valid_number">Please Insert valid Mobile Number</string>
+    <string name="error_enter_number">Please Insert valid Mobile Number</string>
+    <string name="error_enter_valid_password">Password and Confirm Password does not match, Please try again</string>
+    <string name="error_enter_birth_date">Please Enter valid Date of Birth</string>
+    <string name="error_enterpw_confirm">Please Enter valid Confirm Password</string>
+    <string name="error_enter_password_strength">You must enter a valid minimum 8 characters password which consists of at least one uppercase, one lowercase, one number, and one special character</string>
+    <string name="error_enterpw">Please enter valid E-mail and Password</string>
+    <string name="sign_up_error">You have already registered</string>
+    <string name="logout">Logout</string>
+    <string name="home">Home</string>
+    <string name="list">List</string>
+
+    <!--Logout-->
+    <string name="dialog_logout">Are you sure you want to logout ?</string>
+    <string name="label_yes">Yes</string>
+    <string name="label_no">No</string>
+    <string name="login_error">Email or password not match</string>
+
+</resources>
